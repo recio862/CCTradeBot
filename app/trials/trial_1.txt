@@ -1,0 +1,22 @@
+============================
+Trial 1: 12/19/17 - 12/20/17
+============================
+Case 1: Buy/Sell if price changes by over 100 in 1 minute
+Avg BTC Sell: 16624.204285714288
+Avg BTC Buy: 16544.297777777778
+============================
+Case 2: Buy/Sell if price changes by over 50 in 5 minutes
+Avg BTC Sell: 16724.507027027023
+Avg BTC Buy: 16731.184594594597
+============================
+Case 3: Buy/Sell if price changes by over 40 in 1 minute
+Avg BTC Sell: 16711.3807079646
+Avg BTC Buy: 16689.45137931035
+============================
+Case 4: Buy/Sell if price changes by over 100 in 5 minute
+Avg BTC Sell: 16645.61133333333
+Avg BTC Buy: 16691.169523809524
+============================
+Case 5: Buy/Sell if price changes by over 150 in 30 minutes
+Avg BTC Sell: 16768.275454545455
+Avg BTC Buy: 16690.539285714283
