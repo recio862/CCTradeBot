@@ -8,7 +8,7 @@ from app.client import gdax as gdax_client
 
 def create_logger():
     log_formatter = logging.Formatter('%(asctime)s %(levelname)s %(funcName)s(%(lineno)d) %(message)s')
-    logFile = '/root/tradebot/logs/tradebot'
+    logFile = config.LOG_PATH
     log_handler = RotatingFileHandler(logFile, mode='a', maxBytes=50*1024*1024,
                                       backupCount=3, encoding=None, delay=0)
     log_handler.setFormatter(log_formatter)

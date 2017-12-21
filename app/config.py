@@ -6,6 +6,6 @@ class DefaultConfig(object):
     API_SECRET = os.environ.get("GDAX_API_SECRET")
     API_PASSPHRASE = os.environ.get("GDAX_API_PASSPHRASE")
     ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
-    CONFIG_PATH = os.path.join(ROOT_DIR, 'logs')
+    LOG_PATH = os.path.join(ROOT_DIR, 'logs')
 
 config = DefaultConfig()
