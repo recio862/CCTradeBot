@@ -1,7 +1,9 @@
 from app import config
 import gdax
+from app.client.base_client import BaseClient
 
-class GDAXClient():
+
+class GDAXClient(BaseClient):
     
     def __init__(self, logger, product_id='BTC-USD'):
         self.logger = logger
@@ -17,10 +19,10 @@ class GDAXClient():
     def get_product_ticker(self):
         return float(self.auth_client.get_product_ticker(product_id=self.product_id)['price'])
 
-    def buy_coin(self, price, amount, tx):
+    def buy_coin(self, amount, tx):
         self.auth_client.buy(type='market', size='{}'.format(amount),
                              product_id=tx)
 
-    def sell_coin(self, price, amount, tx):
+    def sell_coin(self, amount, tx):
         self.auth_client.sell(type='market', size='{}'.format(amount),
                               product_id=tx)
