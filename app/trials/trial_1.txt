@@ -5,38 +5,47 @@ Case 1: Buy/Sell if price changes by over 100 in 1 minute
 Avg BTC Sell: 16624.204285714288
 Med BTC Sell: 16650.49
 95Percentile BTC Sell: 16937.095999999998
+5th Percentile BTC Sell: 16238.555
 Avg BTC Buy: 16544.297777777778
 Med BTC Buy: 16589.7
 95Percentile BTC Buy: 17201.152
+5th Percentile BTC Buy: 15816.382
 ============================
 Case 2: Buy/Sell if price changes by over 50 in 5 minutes
 Avg BTC Sell: 16724.507027027023
 Med BTC Sell: 16699.485
 95Percentile BTC Sell: 17522.858
+5th Percentile BTC Sell: 16139.95
 Avg BTC Buy: 16731.184594594597
 Med BTC Buy: 16667.505
 95Percentile BTC Buy: 17438.3095
+5th Percentile BTC Buy: 16166.1175
 ============================
 Case 3: Buy/Sell if price changes by over 40 in 1 minute
 Avg BTC Sell: 16711.3807079646
 Med BTC Sell: 16664.86
 95Percentile BTC Sell: 17477.836000000003
+5th Percentile BTC Sell: 16145.916
 Avg BTC Buy: 16689.45137931035
 Med BTC Buy: 16633.28
 95Percentile BTC Buy: 17500.177499999998
+5th Percentile BTC Buy: 16058.7875
 ============================
 Case 4: Buy/Sell if price changes by over 100 in 5 minute
 Avg BTC Sell: 16645.61133333333
 Med BTC Sell: 16700.81
 95Percentile BTC Sell: 17050.204999999998
+5th Percentile BTC Sell: 16158.228
 Avg BTC Buy: 16691.169523809524
 Med BTC Buy: 16612.0
-95Percentile BTC Buy: 17623.0
+5th Percentile BTC Buy: 16000.0
 ============================
 Case 5: Buy/Sell if price changes by over 150 in 30 minutes
 Avg BTC Sell: 16768.275454545455
 Med BTC Sell: 16784.97
-95Percentile BTC Sell: 17426.42
+95th Percentile BTC Sell: 17426.42
+5th Percentile BTC Sell: 16202.035
 Avg BTC Buy: 10635.619999999999
 Med BTC Buy: 16673.125
-95Percentile BTC Buy: 17451.1625
+95th Percentile BTC Buy: 17451.1625
+5th Percentile BTC Buy: 16124.0
